@@ -1,3 +1,8 @@
+/*
+ * 人物の周囲をカメラが回転しながら撮影
+ * その結果をProcessingで加工
+ */
+
 package simulation;
 
 import net.unitedfield.cc.CaptureCameraNode;
@@ -26,6 +31,8 @@ public class MovingCameraMirror2Simulation extends SimpleApplication {
 	Node	cameraRotationCenterNode;
 	CaptureCameraNode	captureCameraNode;
 	
+    @Override
+    // アプリ初期設定
 	public void simpleInitApp()
 	{
 		cameraRotationCenterNode = new Node("CamNode");
@@ -34,15 +41,13 @@ public class MovingCameraMirror2Simulation extends SimpleApplication {
 		setupEnvironment();
 		setupCaptureCamereNodeAndDisplay();
 
-		//putArrow(Vector3f.ZERO, Vector3f.UNIT_X, ColorRGBA.Red);
-		//putArrow(Vector3f.ZERO, Vector3f.UNIT_Y, ColorRGBA.Green);
-		//putArrow(Vector3f.ZERO, Vector3f.UNIT_Z, ColorRGBA.Blue);
-
 		cam.setLocation(new Vector3f(-2f, 1.8f, 5f));
-		flyCam.setMoveSpeed(20);       
+		flyCam.setMoveSpeed(5);  
+		flyCam.setDragToRotate(true);
 	}
 
 	@Override
+    // 更新
 	public void simpleUpdate(float tpf)
 	{
 		angle += 0.002;

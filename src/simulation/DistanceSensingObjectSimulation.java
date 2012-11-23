@@ -1,9 +1,13 @@
+/*
+ *
+ * 距離センサーを使用して、物体を動かす
+ *
+ */
+
 package simulation;
 
 import net.unitedfield.cc.DistanceSensorNode;
 import net.unitedfield.cc.PAppletProjectorShadowNode;
-import test.p5.ColorLight;
-
 import com.jme3.app.SimpleApplication;
 import com.jme3.font.BitmapText;
 import com.jme3.input.KeyInput;
@@ -21,8 +25,6 @@ import com.jme3.scene.Geometry;
 import com.jme3.scene.Node;
 import com.jme3.scene.Spatial;
 import com.jme3.scene.shape.Box;
-import com.jme3.system.AppSettings;
-
 
 public class DistanceSensingObjectSimulation extends SimpleApplication {
 	Node projectorNode;
@@ -36,21 +38,22 @@ public class DistanceSensingObjectSimulation extends SimpleApplication {
 	SpotLight spot;
 
 	@Override
+	// アプリケーション初期化
 	public void simpleInitApp() {
 		cam.setLocation(new Vector3f(-1f, 1.5f, -3f));
-		//cam.lookAt(Vector3f.ZERO, Vector3f.UNIT_Y);
 		cam.lookAt(new Vector3f(0, 1.8f, 5f), Vector3f.UNIT_Y);
+		flyCam.setDragToRotate(true);
 		setupEnvironment();
 		setupObject();
-		setupProjector();
+		//setupProjector();
 		setupDistanceSensor();
 	}
 
+	// 環境を設定
 	private void setupEnvironment() {
-		/* lights */
+		// ライティング
 		DirectionalLight sun = new DirectionalLight();
 		Vector3f lightDir = new Vector3f(-0.12f, -0.3729129f, 0.74847335f);
-		//Vector3f lightDir = new Vector3f(0, 0, 0.1f);
 		sun.setDirection(lightDir);
 		sun.setColor(ColorRGBA.White.clone().multLocal(0.25f));
 		this.rootNode.addLight(sun);
@@ -59,7 +62,16 @@ public class DistanceSensingObjectSimulation extends SimpleApplication {
 		al.setColor(ColorRGBA.White.mult(0.1f));
 		this.rootNode.addLight(al);
 
-		/* floor */
+		spot = new SpotLight();
+		spot.setSpotRange(500);
+		spot.setColor(ColorRGBA.White.multLocal(2.0f));
+		spot.setSpotOuterAngle(30 * FastMath.DEG_TO_RAD);
+		spot.setSpotInnerAngle(15 * FastMath.DEG_TO_RAD);
+		spot.setPosition(new Vector3f(0, 2.2f, -2f));
+		spot.setDirection(new Vector3f(0, 0, 1));
+		rootNode.addLight(spot);
+
+		// 床面を生成
 		Material floor_mat = new Material(assetManager, "Common/MatDefs/Light/Lighting.j3md"); 
 		floor_mat.setTexture("DiffuseMap", assetManager.loadTexture("myAssets/Textures/woodFloor.jpg"));
 		floor_mat.setFloat("Shininess", 12);
@@ -67,7 +79,6 @@ public class DistanceSensingObjectSimulation extends SimpleApplication {
 		floor_mat.setColor("Ambient",  ColorRGBA.White);
 		floor_mat.setColor("Diffuse",  ColorRGBA.White);
 		floor_mat.setColor("Specular", ColorRGBA.White);
-
 		Box floor = new Box(Vector3f.ZERO, 10.0f, 0.01f, 10.0f);
 		Geometry floorGeom = new Geometry("Floor", floor);
 		floorGeom.setMaterial(floor_mat);
@@ -75,7 +86,7 @@ public class DistanceSensingObjectSimulation extends SimpleApplication {
 		floorGeom.setShadowMode(ShadowMode.CastAndReceive);
 		this.rootNode.attachChild(floorGeom);
 
-		/* screen */
+		// 壁を生成
 		Material screen_mat = new Material(assetManager, "Common/MatDefs/Light/Lighting.j3md"); 
 		screen_mat.setFloat("Shininess", 12);
 		screen_mat.setBoolean("UseMaterialColors", true);
@@ -105,34 +116,14 @@ public class DistanceSensingObjectSimulation extends SimpleApplication {
 		rootNode.attachChild(screenGeomL);
 	}
 
-	private void setupProjector() {
-		projectorNode = new Node("ProjectorNod");
-		rootNode.attachChild(projectorNode);
-
-		spot = new SpotLight(); 
-		spot = new SpotLight(); 
-		spot.setSpotRange(500); 
-		spot.setColor(ColorRGBA.White.multLocal(2.0f));
-		spot.setSpotOuterAngle(30 * FastMath.DEG_TO_RAD); 
-		spot.setSpotInnerAngle(15 * FastMath.DEG_TO_RAD); 
-		spot.setPosition(new Vector3f(0, 2.2f, -2f));
-		spot.setDirection(new Vector3f(0, 0, 1));
-		rootNode.addLight(spot);
-
-		ppg = new PAppletProjectorShadowNode("Projector", viewPort, assetManager, 1024, 1024, new ColorLight(), 200, 200,false);
-		ppg.addToViewPort(viewPort);		
-		projectorNode.attachChild(ppg);
-		//projectorNode.rotate((float)(Math.PI)*0.5f, 0, 0);
-		Vector3f spotPos = spot.getPosition();
-		projectorNode.setLocalTranslation(new Vector3f(spotPos.x, spotPos.y - 2f, spotPos.z));
-		
-	}
-
+	// キネティックなオブジェクトを配置
 	private void setupObject() {
+		// ノードを生成
 		objectNode = new Node("ObjectNode");
 		rootNode.attachChild(objectNode);
 		objectNode.setLocalTranslation(new Vector3f(0, 2.2f, 4f));
 
+		// マテリアル設定
 		Material box_mat = new Material(assetManager, "Common/MatDefs/Light/Lighting.j3md"); 
 		box_mat.setFloat("Shininess", 12);
 		box_mat.setBoolean("UseMaterialColors", true);
@@ -140,6 +131,7 @@ public class DistanceSensingObjectSimulation extends SimpleApplication {
 		box_mat.setColor("Diffuse",  new ColorRGBA(0.2f, 0.2f, 0.4f, 1f));
 		box_mat.setColor("Specular", new ColorRGBA(0.2f, 0.4f, 0.2f, 1f));
 
+		// ボックスをすこしずつ角度をずらしながら配置
 		for(int i = 0; i < boxes.length; i++) {
 			Box b = new Box(Vector3f.ZERO, 0.8f, 0.8f, 0.8f);			
 			boxes[i] = new Geometry("Box" + i, b);
@@ -150,10 +142,13 @@ public class DistanceSensingObjectSimulation extends SimpleApplication {
 		}
 	}
 
+	// 距離センサーを設定
 	private void setupDistanceSensor() {
+		// センサーのターゲットとなるノードを設定
 		senseTarget = new Node("senseTarget");
 		rootNode.attachChild(senseTarget);
 
+		// 距離センサーを配置
 		Material m1 = new Material(assetManager, "Common/MatDefs/Misc/Unshaded.j3md");
 		m1.setColor("Color", ColorRGBA.Blue);               
 		distanceSensor = new DistanceSensorNode(5f, assetManager);
@@ -164,38 +159,31 @@ public class DistanceSensingObjectSimulation extends SimpleApplication {
 				objectNode.getLocalTranslation().z);   
 		rootNode.attachChild(distanceSensor);
 
-		//girl
+		// 女性を配置して、センサーのターゲットに設定
 		Spatial girl = assetManager.loadModel("myAssets/Models/WalkingGirl/WalkingGirl.obj");
 		girl.setShadowMode(ShadowMode.CastAndReceive);
 		girl.setModelBound(girl.getWorldBound());
 		senseTarget.attachChild(girl);
-		// if ModelBound is too small, attach a box etc.
-		//		Box b = new Box(Vector3f.ZERO, 0.1f, 0.1f, 0.1f);			
-		//		Geometry box = new Geometry("tBox", b);
-		//		box.setMaterial(m1);
-		//		box.move(0, 1f, 0);
-		//		senseTarget.attachChild(box);
-		
-		// Create input
+
+		// キー入力を設定
 		inputManager.addMapping("MoveRight", new KeyTrigger(KeyInput.KEY_J));
 		inputManager.addMapping("MoveLeft", new KeyTrigger(KeyInput.KEY_K));
-		//inputManager.addMapping("MoveUp", new KeyTrigger(KeyInput.KEY_I));
-		//inputManager.addMapping("MoveDown", new KeyTrigger(KeyInput.KEY_K));
 		inputManager.addMapping("MoveForward", new KeyTrigger(KeyInput.KEY_I));
 		inputManager.addMapping("MoveBack", new KeyTrigger(KeyInput.KEY_M));
 		inputManager.addListener(analogListener, new String[]{
 				"MoveRight", "MoveLeft", "MoveUp", "MoveDown", "MoveForward", "MoveBack"
 		});
-		
-        // Create debug text
-        BitmapText helpText = new BitmapText(guiFont);
-        helpText.setLocalTranslation(0, settings.getHeight(), 0);
-        helpText.setText("J:Right, K:Left, I:Forward, M:Back");
-        guiNode.attachChild(helpText);
+
+		// 画面にキー設定を表示
+		BitmapText helpText = new BitmapText(guiFont);
+		helpText.setLocalTranslation(0, settings.getHeight(), 0);
+		helpText.setText("J:Right, K:Left, I:Forward, M:Back");
+		guiNode.attachChild(helpText);
 	}
 
+	// イベントリスナー
 	private AnalogListener analogListener = new AnalogListener() {
-
+		// キー入力に対応して、センサーのターゲット(女性)の位置を移動
 		public void onAnalog(String name, float value, float tpf) {
 			if (name.equals("MoveRight")) {
 				senseTarget.move(2 * tpf, 0, 0);
@@ -219,12 +207,10 @@ public class DistanceSensingObjectSimulation extends SimpleApplication {
 	};
 
 	@Override
+	//更新
 	public void simpleUpdate(float tpf) {
-		
 		if(distanceSensor.senseCollision(senseTarget)) {
 			float dist = 5f - distanceSensor.getClosestDistance();
-			//System.out.println("closest distance: " + dist);
-
 			for(int i = 0; i < boxes.length; i++) {
 				boxes[i].rotate(
 						i * FastMath.DEG_TO_RAD * dist / 400f, 
@@ -239,20 +225,14 @@ public class DistanceSensingObjectSimulation extends SimpleApplication {
 	}
 
 	@Override
+	//終了処理
 	public void destroy() {
 		super.destroy();
 		System.exit(0);
 	}
 
 	public static void main(String[] args) {
-		SimpleApplication app = new DistanceSensingObjectSimulation();		
-		AppSettings s = new AppSettings(true);
-		/*
-		s.setWidth(640);
-		s.setHeight(480);
-		app.setSettings(s);
-		app.setShowSettings(false);
-		*/		
+		SimpleApplication app = new DistanceSensingObjectSimulation();
 		app.start();
 	}
 }
