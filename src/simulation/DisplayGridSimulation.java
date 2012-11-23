@@ -1,8 +1,12 @@
+/*
+ * ディスプレイをグリッド状に配置するサンプル
+ *
+ */
+
 package simulation;
 
 import test.p5.ColorBarsPApplet;
 import net.unitedfield.cc.PAppletDisplayGeometry;
-
 import com.jme3.app.SimpleApplication;
 import com.jme3.light.DirectionalLight;
 import com.jme3.math.Vector3f;

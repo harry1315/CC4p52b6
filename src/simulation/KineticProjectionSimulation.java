@@ -1,3 +1,8 @@
+/*
+ * キネティックな物体を配置して、プロジェクション
+ *
+ */
+
 package simulation;
 
 import net.unitedfield.cc.PAppletProjectorShadowNode;

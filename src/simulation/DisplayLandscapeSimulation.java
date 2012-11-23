@@ -1,3 +1,8 @@
+/*
+ * 地表に複数のディスプレイを配置
+ *
+ */
+
 package simulation;
 
 import test.p5.OrangeWavePApplet;
