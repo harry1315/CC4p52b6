@@ -57,7 +57,7 @@ public class DisplayLandscapeNew extends SimpleApplication {
 		// カメラの位置と移動速度を設定
 		cam.setLocation(new Vector3f(-150f, 4.0f, 0f));
 		flyCam.setMoveSpeed(10);
-		flyCam.setDragToRotate(true);
+		//flyCam.setDragToRotate(true);
 
 		// 空を追加
 		rootNode.attachChild(SkyFactory.createSky(assetManager, "Textures/Sky/Bright/BrightSky.dds", false));
