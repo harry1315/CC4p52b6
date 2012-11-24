@@ -42,5 +42,12 @@
 	<classpathentry kind="lib" path="lib/p52b6/modelbuilder.jar"/>
 	<classpathentry kind="lib" path="lib/p52b6/PeasyCam.jar"/>
 	<classpathentry kind="lib" path="lib/p52b6/physics.jar"/>
+	<classpathentry kind="lib" path="lib/p52b6/batikfont.jar"/>
+	<classpathentry kind="lib" path="lib/p52b6/generativedesign.jar"/>
+	<classpathentry kind="lib" path="lib/p52b6/geomerative.jar"/>
+	<classpathentry kind="lib" path="lib/p52b6/jpen-2.jar"/>
+	<classpathentry kind="lib" path="lib/p52b6/toxiclibscore.jar"/>
+	<classpathentry kind="lib" path="lib/p52b6/treemap.jar"/>
+	<classpathentry kind="lib" path="lib/p52b6/pdf.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

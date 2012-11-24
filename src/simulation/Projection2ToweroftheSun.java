@@ -8,6 +8,8 @@ import net.unitedfield.cc.PAppletProjectorNode;
 import net.unitedfield.cc.PAppletProjectorShadowNode;
 import processing.core.PApplet;
 import test.p5.ColorBarsPApplet;
+import test.p5.P_2_1_1_03;
+import test.p5.P_2_2_5_01;
 import test.p5.SimpleGridPApplet;
 
 import com.jme3.app.SimpleApplication;
@@ -26,7 +28,7 @@ import com.jme3.scene.shape.Box;
 import com.jme3.texture.Texture;
 import com.jme3.util.SkyFactory;
 
-public class Projection2BigsightSimulation extends SimpleApplication {
+public class Projection2ToweroftheSun extends SimpleApplication {
 	int NUM = 100;
 	Spatial[] girl = new Spatial[NUM];
 	PApplet applet;
@@ -86,7 +88,7 @@ public class Projection2BigsightSimulation extends SimpleApplication {
 		}
         
 		// ビッグサイトを配置
-		Spatial object = (Spatial) assetManager.loadModel("myAssets/Models/TokyoBigSite/TokyoBigSite.obj");
+		Spatial object = (Spatial) assetManager.loadModel("myAssets/Models/TowerofTheSun/TowerofTheSun.obj");
 		rootNode.attachChild(object);
         
         // プロジェクタの映像を影を表示
@@ -97,10 +99,12 @@ public class Projection2BigsightSimulation extends SimpleApplication {
     // プロジェクタ設定
 	private void setupProjector(){
         //projector(new!)
-        PApplet applet = new SimpleGridPApplet();
-        PAppletProjectorNode projectorNode = new PAppletProjectorNode("projector0", assetManager, applet, 400, 300, true);
-        projectorNode.setLocalTranslation(new Vector3f(0, 4f, 300));
-        projectorNode.lookAt(new Vector3f(0, 60f, 0f), Vector3f.UNIT_Y);
+        //PApplet applet = new P_2_1_1_03();
+		//PApplet applet = new ColorBarsPApplet();
+		PApplet applet = new P_2_2_5_01();
+        PAppletProjectorNode projectorNode = new PAppletProjectorNode("projector0", assetManager, applet, 400, 400, true);
+        projectorNode.setLocalTranslation(new Vector3f(0, 4f, 200));
+        projectorNode.lookAt(new Vector3f(0, 50f, 0f), Vector3f.UNIT_Y);
         rootNode.attachChild(projectorNode);
         rootNode.attachChild(projectorNode.getFrustmMdel()); // if you don't want to see frustum, please don't attach it to rootNode. 
         //projector should be added to TextureProjectorRenderer, and TextureProjectorRenderer should be added to ViewPort.
@@ -118,7 +122,7 @@ public class Projection2BigsightSimulation extends SimpleApplication {
 	
     // メイン
 	public static void main(String[] args){
-		SimpleApplication app = new Projection2BigsightSimulation();
+		SimpleApplication app = new Projection2ToweroftheSun();
 		app.setPauseOnLostFocus(false); 
 		app.start();
 	}
