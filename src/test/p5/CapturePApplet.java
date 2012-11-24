@@ -4,7 +4,7 @@ import processing.core.PApplet;
 import processing.video.Capture;
 
 public class CapturePApplet extends PApplet {	
-	public boolean realDeployment = false;
+	public boolean realDeployment = true;
 	Capture video = null;	
 	
 	public void setup() {
