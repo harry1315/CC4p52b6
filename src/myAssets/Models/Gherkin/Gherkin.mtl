@@ -1,0 +1,1556 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl M_96_96_96
+Ka 0.000000 0.000000 0.000000
+Kd 0.376471 0.376471 0.376471
+Ks 0.330000 0.330000 0.330000
+
+newmtl _Beige_1
+Ka 0.000000 0.000000 0.000000
+Kd 0.827451 0.741176 0.564706
+Ks 0.330000 0.330000 0.330000
+
+newmtl Color_B24
+Ka 0.000000 0.000000 0.000000
+Kd 0.200000 0.137255 0.117647
+Ks 0.330000 0.330000 0.330000
+
+newmtl _LightGray_
+Ka 0.000000 0.000000 0.000000
+Kd 0.662745 0.662745 0.662745
+Ks 0.330000 0.330000 0.330000
+
+newmtl M_0135_DarkGray
+Ka 0.000000 0.000000 0.000000
+Kd 0.317647 0.317647 0.317647
+Ks 0.330000 0.330000 0.330000
+
+newmtl jean_blue
+Ka 0.000000 0.000000 0.000000
+Kd 0.141176 0.184314 0.258824
+Ks 0.330000 0.330000 0.330000
+
+newmtl _Charcoal_
+Ka 0.000000 0.000000 0.000000
+Kd 0.137255 0.137255 0.137255
+Ks 0.330000 0.330000 0.330000
+
+newmtl Google_Earth_Snapshot2
+Ka 0.000000 0.000000 0.000000
+Kd 0.396078 0.396078 0.396078
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Google_Earth_Snapshot2.jpg
+
+newmtl _DarkGoldenrod_
+Ka 0.000000 0.000000 0.000000
+Kd 0.721569 0.525490 0.043137
+Ks 0.330000 0.330000 0.330000
+
+newmtl _Gray6_
+Ka 0.000000 0.000000 0.000000
+Kd 0.376471 0.376471 0.376471
+Ks 0.330000 0.330000 0.330000
+
+newmtl _Brown_
+Ka 0.000000 0.000000 0.000000
+Kd 0.466667 0.345098 0.211765
+Ks 0.330000 0.330000 0.330000
+
+newmtl _Black_
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl _Redwood_
+Ka 0.000000 0.000000 0.000000
+Kd 0.654902 0.396078 0.321569
+Ks 0.330000 0.330000 0.330000
+
+newmtl Color_003
+Ka 0.000000 0.000000 0.000000
+Kd 0.423529 0.415686 0.415686
+Ks 0.330000 0.330000 0.330000
+
+newmtl Gherkin_Texture3
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.564706 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3.JPG
+
+newmtl Riverermead_House_Satellite_Image
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image.jpg
+
+newmtl Riverermead_House_Satellite_Image1_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image1_.jpg
+
+newmtl Gherkin_Texture
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture.JPG
+
+newmtl Google_Earth_Texture
+Ka 0.000000 0.000000 0.000000
+Kd 0.576471 0.576471 0.576471
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Google_Earth_Texture.jpg
+
+newmtl Gherkin_Texture2
+Ka 0.000000 0.000000 0.000000
+Kd 0.647059 0.647059 0.643137
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture2.JPG
+
+newmtl Google_Earth_Texture1_
+Ka 0.000000 0.000000 0.000000
+Kd 0.576471 0.576471 0.576471
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Google_Earth_Texture1_.jpg
+
+newmtl Gherkin_Texture1_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture1_.JPG
+
+newmtl Gherkin_Texture2_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture2_.JPG
+
+newmtl Gherkin_Texture3_1_
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.564706 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3_1_.JPG
+
+newmtl Google_Earth_Texture2_
+Ka 0.000000 0.000000 0.000000
+Kd 0.576471 0.576471 0.576471
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Google_Earth_Texture2_.jpg
+
+newmtl Gherkin_Texture4
+Ka 0.000000 0.000000 0.000000
+Kd 0.439216 0.439216 0.439216
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture4.JPG
+
+newmtl Riverermead_House_Satellite_Image2_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image2_.jpg
+
+newmtl Gherkin_Texture3_2_
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.564706 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3_2_.JPG
+
+newmtl Riverermead_House_Satellite_Image3_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image3_.jpg
+
+newmtl Riverermead_House_Satellite_Image4_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image4_.jpg
+
+newmtl Gherkin_Texture3_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3_.JPG
+
+newmtl M_3
+Ka 0.000000 0.000000 0.000000
+Kd 0.474510 0.482353 0.490196
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/M_3.jpg
+
+newmtl Gherkin_Texture3_3_
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.564706 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3_3_.JPG
+
+newmtl Gherkin_Texture3_4_
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.564706 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3_4_.JPG
+
+newmtl Gherkin_Texture4_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture4_.JPG
+
+newmtl Google_Earth_Texture3_
+Ka 0.000000 0.000000 0.000000
+Kd 0.576471 0.576471 0.576471
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Google_Earth_Texture3_.jpg
+
+newmtl Riverermead_House_Satellite_Image5_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image5_.jpg
+
+newmtl Riverermead_House_Satellite_Image6_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image6_.jpg
+
+newmtl Gherkin_Texture5_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture5_.JPG
+
+newmtl Riverermead_House_Satellite_Image7_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image7_.jpg
+
+newmtl Gherkin_Texture3_5_
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.564706 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3_5_.JPG
+
+newmtl Gherkin_Texture6_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture6_.JPG
+
+newmtl Google_Earth_Texture4_
+Ka 0.000000 0.000000 0.000000
+Kd 0.576471 0.576471 0.576471
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Google_Earth_Texture4_.jpg
+
+newmtl Gherkin_Texture7_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture7_.JPG
+
+newmtl Riverermead_House_Satellite_Image8_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image8_.jpg
+
+newmtl Google_Earth_Texture5_
+Ka 0.000000 0.000000 0.000000
+Kd 0.576471 0.576471 0.576471
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Google_Earth_Texture5_.jpg
+
+newmtl Google_Earth_Texture6_
+Ka 0.000000 0.000000 0.000000
+Kd 0.576471 0.576471 0.576471
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Google_Earth_Texture6_.jpg
+
+newmtl Gherkin_Texture8_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture8_.JPG
+
+newmtl Google_Earth_Texture7_
+Ka 0.000000 0.000000 0.000000
+Kd 0.576471 0.576471 0.576471
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Google_Earth_Texture7_.jpg
+
+newmtl Gherkin_Texture3_6_
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.564706 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3_6_.JPG
+
+newmtl Riverermead_House_Satellite_Image9_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image9_.jpg
+
+newmtl Google_Earth_Texture8_
+Ka 0.000000 0.000000 0.000000
+Kd 0.576471 0.576471 0.576471
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Google_Earth_Texture8_.jpg
+
+newmtl Gherkin_Texture9_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture9_.JPG
+
+newmtl Riverermead_House_Satellite_Image10_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image10_.jpg
+
+newmtl Gherkin_Texture10_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture10_.JPG
+
+newmtl Gherkin_Texture11_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture11_.JPG
+
+newmtl Gherkin_Texture3_7_
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.564706 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3_7_.JPG
+
+newmtl Gherkin_Texture12_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture12_.JPG
+
+newmtl Riverermead_House_Satellite_Image11_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image11_.jpg
+
+newmtl Gherkin_Texture13_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture13_.JPG
+
+newmtl Google_Earth_Texture9_
+Ka 0.000000 0.000000 0.000000
+Kd 0.576471 0.576471 0.576471
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Google_Earth_Texture9_.jpg
+
+newmtl Riverermead_House_Satellite_Image12_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image12_.jpg
+
+newmtl Google_Earth_Texture10_
+Ka 0.000000 0.000000 0.000000
+Kd 0.576471 0.576471 0.576471
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Google_Earth_Texture10_.jpg
+
+newmtl Gherkin_Texture14_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture14_.JPG
+
+newmtl Gherkin_Texture15_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture15_.JPG
+
+newmtl Gherkin_Texture16_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture16_.JPG
+
+newmtl Gherkin_Texture3_8_
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.564706 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3_8_.JPG
+
+newmtl Gherkin_Texture17_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture17_.JPG
+
+newmtl Gherkin_Texture18_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture18_.JPG
+
+newmtl Google_Earth_Texture11_
+Ka 0.000000 0.000000 0.000000
+Kd 0.576471 0.576471 0.576471
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Google_Earth_Texture11_.jpg
+
+newmtl Gherkin_Texture19_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture19_.JPG
+
+newmtl Riverermead_House_Satellite_Image13_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image13_.jpg
+
+newmtl Riverermead_House_Satellite_Image14_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image14_.jpg
+
+newmtl Gherkin_Texture20_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture20_.JPG
+
+newmtl Gherkin_Texture21_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture21_.JPG
+
+newmtl Gherkin_Texture22_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture22_.JPG
+
+newmtl Gherkin_Texture23_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture23_.JPG
+
+newmtl Riverermead_House_Satellite_Image15_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image15_.jpg
+
+newmtl Riverermead_House_Satellite_Image16_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image16_.jpg
+
+newmtl Gherkin_Texture24_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture24_.JPG
+
+newmtl Gherkin_Texture3_9_
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.564706 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3_9_.JPG
+
+newmtl Gherkin_Texture3_10_
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.564706 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3_10_.JPG
+
+newmtl Riverermead_House_Satellite_Image17_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image17_.jpg
+
+newmtl Gherkin_Texture25_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture25_.JPG
+
+newmtl Gherkin_Texture26_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture26_.JPG
+
+newmtl Gherkin_Texture27_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture27_.JPG
+
+newmtl Gherkin_Texture28_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture28_.JPG
+
+newmtl Riverermead_House_Satellite_Image18_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image18_.jpg
+
+newmtl Gherkin_Texture29_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture29_.JPG
+
+newmtl Riverermead_House_Satellite_Image19_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image19_.jpg
+
+newmtl Gherkin_Texture30_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture30_.JPG
+
+newmtl Gherkin_Texture31_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture31_.JPG
+
+newmtl Riverermead_House_Satellite_Image20_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image20_.jpg
+
+newmtl Gherkin_Texture3_11_
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.564706 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3_11_.JPG
+
+newmtl Gherkin_Texture3_12_
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.564706 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3_12_.JPG
+
+newmtl Riverermead_House_Satellite_Image21_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image21_.jpg
+
+newmtl Gherkin_Texture3_13_
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.564706 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3_13_.JPG
+
+newmtl Google_Earth_Texture12_
+Ka 0.000000 0.000000 0.000000
+Kd 0.576471 0.576471 0.576471
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Google_Earth_Texture12_.jpg
+
+newmtl Gherkin_Texture32_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture32_.JPG
+
+newmtl Gherkin_Texture3_14_
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.564706 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3_14_.JPG
+
+newmtl Riverermead_House_Satellite_Image22_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image22_.jpg
+
+newmtl Gherkin_Texture33_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture33_.JPG
+
+newmtl Gherkin_Texture3_15_
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.564706 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3_15_.JPG
+
+newmtl Gherkin_Texture3_16_
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.564706 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3_16_.JPG
+
+newmtl M_3_1_
+Ka 0.000000 0.000000 0.000000
+Kd 0.474510 0.482353 0.490196
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/M_3_1_.jpg
+
+newmtl Riverermead_House_Satellite_Image23_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image23_.jpg
+
+newmtl Riverermead_House_Satellite_Image24_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image24_.jpg
+
+newmtl Gherkin_Texture34_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture34_.JPG
+
+newmtl Gherkin_Texture35_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture35_.JPG
+
+newmtl Gherkin_Texture36_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture36_.JPG
+
+newmtl Riverermead_House_Satellite_Image25_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image25_.jpg
+
+newmtl Gherkin_Texture37_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture37_.JPG
+
+newmtl Gherkin_Texture38_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture38_.JPG
+
+newmtl Riverermead_House_Satellite_Image26_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image26_.jpg
+
+newmtl Gherkin_Texture39_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture39_.JPG
+
+newmtl Gherkin_Texture40_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture40_.JPG
+
+newmtl Gherkin_Texture3_17_
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.564706 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3_17_.JPG
+
+newmtl Gherkin_Texture3_18_
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.564706 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3_18_.JPG
+
+newmtl Gherkin_Texture41_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture41_.JPG
+
+newmtl Gherkin_Texture42_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture42_.JPG
+
+newmtl Riverermead_House_Satellite_Image27_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image27_.jpg
+
+newmtl Gherkin_Texture43_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture43_.JPG
+
+newmtl Google_Earth_Texture13_
+Ka 0.000000 0.000000 0.000000
+Kd 0.576471 0.576471 0.576471
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Google_Earth_Texture13_.jpg
+
+newmtl Google_Earth_Texture14_
+Ka 0.000000 0.000000 0.000000
+Kd 0.576471 0.576471 0.576471
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Google_Earth_Texture14_.jpg
+
+newmtl Gherkin_Texture3_19_
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.564706 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3_19_.JPG
+
+newmtl Riverermead_House_Satellite_Image28_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image28_.jpg
+
+newmtl Gherkin_Texture44_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture44_.JPG
+
+newmtl Gherkin_Texture45_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture45_.JPG
+
+newmtl Gherkin_Texture46_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture46_.JPG
+
+newmtl Riverermead_House_Satellite_Image29_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image29_.jpg
+
+newmtl M_3_2_
+Ka 0.000000 0.000000 0.000000
+Kd 0.474510 0.482353 0.490196
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/M_3_2_.jpg
+
+newmtl Gherkin_Texture47_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture47_.JPG
+
+newmtl FrontColor
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl Gherkin_Texture48_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture48_.JPG
+
+newmtl Gherkin_Texture49_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture49_.JPG
+
+newmtl Gherkin_Texture50_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture50_.JPG
+
+newmtl Gherkin_Texture51_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture51_.JPG
+
+newmtl Gherkin_Texture52_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture52_.JPG
+
+newmtl Riverermead_House_Satellite_Image30_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image30_.jpg
+
+newmtl Gherkin_Texture53_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture53_.JPG
+
+newmtl Gherkin_Texture54_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture54_.JPG
+
+newmtl Gherkin_Texture55_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture55_.JPG
+
+newmtl Riverermead_House_Satellite_Image31_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image31_.jpg
+
+newmtl Gherkin_Texture56_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture56_.JPG
+
+newmtl Riverermead_House_Satellite_Image32_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image32_.jpg
+
+newmtl Gherkin_Texture3_20_
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.564706 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3_20_.JPG
+
+newmtl Gherkin_Texture57_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture57_.JPG
+
+newmtl Riverermead_House_Satellite_Image33_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image33_.jpg
+
+newmtl Gherkin_Texture3_21_
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.564706 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3_21_.JPG
+
+newmtl Gherkin_Texture58_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture58_.JPG
+
+newmtl Riverermead_House_Satellite_Image34_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image34_.jpg
+
+newmtl Gherkin_Texture3_22_
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.564706 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3_22_.JPG
+
+newmtl Gherkin_Texture59_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture59_.JPG
+
+newmtl Google_Earth_Texture15_
+Ka 0.000000 0.000000 0.000000
+Kd 0.576471 0.576471 0.576471
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Google_Earth_Texture15_.jpg
+
+newmtl Riverermead_House_Satellite_Image35_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image35_.jpg
+
+newmtl Gherkin_Texture60_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture60_.JPG
+
+newmtl Riverermead_House_Satellite_Image36_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image36_.jpg
+
+newmtl Gherkin_Texture3_23_
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.564706 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3_23_.JPG
+
+newmtl Gherkin_Texture61_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture61_.JPG
+
+newmtl Gherkin_Texture62_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture62_.JPG
+
+newmtl Gherkin_Texture63_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture63_.JPG
+
+newmtl Gherkin_Texture3_24_
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.564706 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3_24_.JPG
+
+newmtl Gherkin_Texture64_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture64_.JPG
+
+newmtl Gherkin_Texture65_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture65_.JPG
+
+newmtl Gherkin_Texture66_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture66_.JPG
+
+newmtl Riverermead_House_Satellite_Image37_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image37_.jpg
+
+newmtl Gherkin_Texture67_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture67_.JPG
+
+newmtl Riverermead_House_Satellite_Image38_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image38_.jpg
+
+newmtl Riverermead_House_Satellite_Image39_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image39_.jpg
+
+newmtl Gherkin_Texture68_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture68_.JPG
+
+newmtl Gherkin_Texture69_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture69_.JPG
+
+newmtl Riverermead_House_Satellite_Image40_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image40_.jpg
+
+newmtl Riverermead_House_Satellite_Image41_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image41_.jpg
+
+newmtl Riverermead_House_Satellite_Image42_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image42_.jpg
+
+newmtl Gherkin_Texture3_25_
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.564706 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3_25_.JPG
+
+newmtl Google_Earth_Texture16_
+Ka 0.000000 0.000000 0.000000
+Kd 0.576471 0.576471 0.576471
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Google_Earth_Texture16_.jpg
+
+newmtl Gherkin_Texture3_26_
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.564706 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3_26_.JPG
+
+newmtl Riverermead_House_Satellite_Image43_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image43_.jpg
+
+newmtl Gherkin_Texture70_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture70_.JPG
+
+newmtl Gherkin_Texture3_27_
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.564706 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3_27_.JPG
+
+newmtl Gherkin_Texture71_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture71_.JPG
+
+newmtl Gherkin_Texture3_28_
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.564706 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3_28_.JPG
+
+newmtl Gherkin_Texture72_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture72_.JPG
+
+newmtl Gherkin_Texture3_29_
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.564706 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3_29_.JPG
+
+newmtl Riverermead_House_Satellite_Image44_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image44_.jpg
+
+newmtl Riverermead_House_Satellite_Image45_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image45_.jpg
+
+newmtl Riverermead_House_Satellite_Image46_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image46_.jpg
+
+newmtl Riverermead_House_Satellite_Image47_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image47_.jpg
+
+newmtl Riverermead_House_Satellite_Image48_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image48_.jpg
+
+newmtl Gherkin_Texture73_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture73_.JPG
+
+newmtl Gherkin_Texture74_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture74_.JPG
+
+newmtl Riverermead_House_Satellite_Image49_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image49_.jpg
+
+newmtl Gherkin_Texture75_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture75_.JPG
+
+newmtl Gherkin_Texture76_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture76_.JPG
+
+newmtl Riverermead_House_Satellite_Image50_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image50_.jpg
+
+newmtl Gherkin_Texture77_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture77_.JPG
+
+newmtl Riverermead_House_Satellite_Image51_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image51_.jpg
+
+newmtl Gherkin_Texture3_30_
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.564706 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3_30_.JPG
+
+newmtl Gherkin_Texture78_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture78_.JPG
+
+newmtl Gherkin_Texture3_31_
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.564706 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3_31_.JPG
+
+newmtl Gherkin_Texture79_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture79_.JPG
+
+newmtl Gherkin_Texture80_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture80_.JPG
+
+newmtl Gherkin_Texture81_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture81_.JPG
+
+newmtl Riverermead_House_Satellite_Image52_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image52_.jpg
+
+newmtl Riverermead_House_Satellite_Image53_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image53_.jpg
+
+newmtl Riverermead_House_Satellite_Image54_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image54_.jpg
+
+newmtl Gherkin_Texture82_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture82_.JPG
+
+newmtl Google_Earth_Texture17_
+Ka 0.000000 0.000000 0.000000
+Kd 0.576471 0.576471 0.576471
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Google_Earth_Texture17_.jpg
+
+newmtl Gherkin_Texture83_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture83_.JPG
+
+newmtl Riverermead_House_Satellite_Image55_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image55_.jpg
+
+newmtl Gherkin_Texture84_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture84_.JPG
+
+newmtl Gherkin_Texture85_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture85_.JPG
+
+newmtl Gherkin_Texture86_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture86_.JPG
+
+newmtl Gherkin_Texture87_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture87_.JPG
+
+newmtl Gherkin_Texture88_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture88_.JPG
+
+newmtl Gherkin_Texture89_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture89_.JPG
+
+newmtl Gherkin_Texture90_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture90_.JPG
+
+newmtl Gherkin_Texture91_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture91_.JPG
+
+newmtl Riverermead_House_Satellite_Image56_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image56_.jpg
+
+newmtl Gherkin_Texture92_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture92_.JPG
+
+newmtl Riverermead_House_Satellite_Image57_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image57_.jpg
+
+newmtl Gherkin_Texture93_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture93_.JPG
+
+newmtl Riverermead_House_Satellite_Image58_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image58_.jpg
+
+newmtl Gherkin_Texture94_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture94_.JPG
+
+newmtl Gherkin_Texture95_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture95_.JPG
+
+newmtl Gherkin_Texture96_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture96_.JPG
+
+newmtl Riverermead_House_Satellite_Image59_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image59_.jpg
+
+newmtl Riverermead_House_Satellite_Image60_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image60_.jpg
+
+newmtl Riverermead_House_Satellite_Image61_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image61_.jpg
+
+newmtl Gherkin_Texture97_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture97_.JPG
+
+newmtl Riverermead_House_Satellite_Image62_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image62_.jpg
+
+newmtl Riverermead_House_Satellite_Image63_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image63_.jpg
+
+newmtl Gherkin_Texture3_32_
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.564706 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3_32_.JPG
+
+newmtl Riverermead_House_Satellite_Image64_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image64_.jpg
+
+newmtl Gherkin_Texture98_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture98_.JPG
+
+newmtl Gherkin_Texture99_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture99_.JPG
+
+newmtl Riverermead_House_Satellite_Image65_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image65_.jpg
+
+newmtl Riverermead_House_Satellite_Image66_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image66_.jpg
+
+newmtl Gherkin_Texture100_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture100_.JPG
+
+newmtl Gherkin_Texture3_33_
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.564706 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3_33_.JPG
+
+newmtl Gherkin_Texture3_34_
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.564706 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3_34_.JPG
+
+newmtl Gherkin_Texture3_35_
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.564706 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3_35_.JPG
+
+newmtl Riverermead_House_Satellite_Image67_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image67_.jpg
+
+newmtl Riverermead_House_Satellite_Image68_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image68_.jpg
+
+newmtl Gherkin_Texture101_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture101_.JPG
+
+newmtl Gherkin_Texture102_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture102_.JPG
+
+newmtl Riverermead_House_Satellite_Image69_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image69_.jpg
+
+newmtl Gherkin_Texture3_36_
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.564706 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3_36_.JPG
+
+newmtl Gherkin_Texture103_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture103_.JPG
+
+newmtl Gherkin_Texture3_37_
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.564706 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3_37_.JPG
+
+newmtl Riverermead_House_Satellite_Image70_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image70_.jpg
+
+newmtl Gherkin_Texture104_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture104_.JPG
+
+newmtl Gherkin_Texture3_38_
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.564706 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3_38_.JPG
+
+newmtl Gherkin_Texture105_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture105_.JPG
+
+newmtl Gherkin_Texture3_39_
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.564706 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3_39_.JPG
+
+newmtl Gherkin_Texture106_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture106_.JPG
+
+newmtl Gherkin_Texture3_40_
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.564706 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3_40_.JPG
+
+newmtl Riverermead_House_Satellite_Image71_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image71_.jpg
+
+newmtl Riverermead_House_Satellite_Image72_
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.580392 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Riverermead_House_Satellite_Image72_.jpg
+
+newmtl Gherkin_Texture3_41_
+Ka 0.000000 0.000000 0.000000
+Kd 0.549020 0.564706 0.588235
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture3_41_.JPG
+
+newmtl Gherkin_Texture107_
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.725490 0.733333
+Ks 0.330000 0.330000 0.330000
+map_Kd Gherkin/Gherkin_Texture107_.JPG
+
