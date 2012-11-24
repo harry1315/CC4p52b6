@@ -138,8 +138,8 @@ public class WS03_ProjectorInGallery extends SimpleApplication{
 	@Override
 	// 状態の更新(アニメーション)
 	public void simpleUpdate(float tpf) {
-		//float lookX = FastMath.cos(timer.getTimeInSeconds() * 0.2f) * 30.0f;
-		//projectorNode.lookAt(new Vector3f(lookX, 4.0f, 10), Vector3f.UNIT_Y.clone());
+		float lookX = FastMath.cos(timer.getTimeInSeconds() * 0.2f) * 30.0f;
+		projectorNode.lookAt(new Vector3f(lookX, 4.0f, 10), Vector3f.UNIT_Y.clone());
 		//float locZ = FastMath.sin(timer.getTimeInSeconds() * 0.5f) * 5.0f;
 		//projectorNode.setLocalTranslation(new Vector3f(0, 3.5f, locZ));
 	}

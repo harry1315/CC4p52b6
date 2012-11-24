@@ -23,7 +23,7 @@ Capture video;
  * by naka
  * please see the small difference between Mirror2(oritinal java src exported from pde) and this Mirror2PApplet.
  */
-public boolean realDeployment = false;
+public boolean realDeployment = true;
 
 public void setup() {
   size(640, 480, P2D);
